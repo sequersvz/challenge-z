@@ -1,35 +1,57 @@
-# Next.js + Jest
+# React + TypeScript + Nextjs
 
-This example shows how to configure Jest to work with Next.js.
+# Description
 
-This includes Next.js' built-in support for Global CSS, CSS Modules and TypeScript. This example also shows how to use Jest with the App Router and React Server Components.
+Marvel APP for Zara
 
-> **Note:** Since tests can be co-located alongside other files inside the App Router, we have placed those tests in `app/` to demonstrate this behavior (which is different than `pages/`). You can still place all tests in `__tests__` if you prefer.
+# Monolitch Architecture APP #
 
-## Deploy your own
+# Getting started
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-jest&project-name=with-jest&repository-name=with-jest)
+Use the following steps to clone the repository and start the app
 
-## How to Use
-
-Quickly get started using [Create Next App](https://github.com/vercel/next.js/tree/canary/packages/create-next-app#readme)!
-
-In your terminal, run the following command:
+1. Clone the repository
 
 ```bash
-npx create-next-app --example with-jest with-jest-app
+git clone https://github.com/sequersvz/challenge-z.git
 ```
+
+2. Add your Marvel API in .env
 
 ```bash
-yarn create next-app --example with-jest with-jest-app
+NEXT_PUBLIC_MARVEL_API_URL=https://gateway.marvel.com/v1/public
+NEXT_PUBLIC_MARVEL_API_KEY=
 ```
+
+4. Run dev environment
 
 ```bash
-pnpm create next-app --example with-jest with-jest-app
+npm run dev
 ```
 
-## Running Tests
+3. Install the packages on client folder
 
-```bash
-npm test
-```
+# Scripts
+
+| Scripts    | Descripcion                                          |
+| ---------- | ----------------------------------------------------- |
+| dev        | Initiate developer server on 3000                     |
+| build      | Create build package ready to deploy                  |
+| start      | Start production environment on port 3000             |
+| test       | Run test environment locally                          |
+| test:ci    | Run test environment for CI environments              |
+| lint       | Run linter                                            |
+| lint:fix   | Run linter automatic fixer                            |
+| format     | Run code formatter                                    |
+| format:fix | Run automatic code formatter                          |
+
+
+# Libraries used on project
+
+
+| Library          | Version     |
+| ---------------- | ----------- |
+| React            | ^18.2.0     |
+| React Router Dom | ^18.2.0     |
+| Next             | 14.1.0      |
+| Axios            | ^1.6.7      |
