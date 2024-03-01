@@ -80,7 +80,7 @@ export const CharacterProfile: React.FC<IProps> = ({
                   className={styles['character-detail-view__character__resume__description']}
                   title={`${character.name} Description`}
                 >
-                  {character.description}
+                  {character.description.length > 0 ? character.description : "description not available..."}
                 </article>
               </>
             )}
