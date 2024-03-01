@@ -16,7 +16,7 @@ Use the following steps to clone the repository and start the app
 git clone https://github.com/sequersvz/challenge-z.git
 ```
 
-2. Add your Marvel API in .env
+2. Add your Marvel API KEY in .env
 
 ```bash
 NEXT_PUBLIC_MARVEL_API_URL=https://gateway.marvel.com/v1/public
