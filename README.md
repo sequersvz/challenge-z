@@ -29,8 +29,6 @@ NEXT_PUBLIC_MARVEL_API_KEY=
 npm run dev
 ```
 
-3. Install the packages on client folder
-
 # Scripts
 
 | Scripts    | Descripcion                                          |
