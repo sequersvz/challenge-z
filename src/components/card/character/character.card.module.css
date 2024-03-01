@@ -1,0 +1,68 @@
+.character-card {
+  width: var(--character-card-width);
+  height: 246px;
+  margin: 0;
+}
+
+.character-card__thumbnail {
+  width: var(--character-card-width);
+  height: var(--character-card-width);
+}
+
+.character-card__thumbnail > img {
+  width: var(--character-card-width);
+  height: var(--character-card-width);
+}
+
+.character-card__splitter {
+  width: 100%;
+  height: 5px;
+  background-color: var(--color-marvel-red);
+}
+
+.character-card__name {
+  width: 100%;
+  height: 56px;
+  color: white;
+  font-size: 12px;
+  line-height: 16px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 14px 14px 20px 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(
+      var(--color-marvel-red),
+      var(--color-marvel-red) 50%,
+      var(--color-dark) 50%,
+      var(--color-dark)
+    )
+    100% 100%;
+  background-size: 100% 200%;
+  transition: background 0.3s;
+}
+
+.character-card__name > p {
+  text-overflow: ellipsis;
+  flex-basis: 80%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.character-card__name__icon {
+  width: 12px;
+  height: 12px;
+  margin-left: 15px;
+}
+
+@media (min-width: 540px) {
+  .character-card:hover .character-card__name {
+    background-position: 0 0;
+  }
+  .character-card:hover .character-card__fav-icon {
+    background-color: var(--color-clear);
+  }
+}

@@ -1,0 +1,27 @@
+.icon {
+  mask-size: contain;
+  mask-repeat: no-repeat;
+  mask-position: 50% 50%;
+  width: 100%;
+  height: 100%;
+}
+
+.icon--heart {
+  mask-image: url('/assets/icons/heart.svg');
+  background-color: var(--color-marvel-red);
+}
+
+.icon--heart-line {
+  mask-image: url('/assets/icons/heart-line.svg');
+  background-color: var(--color-clear);
+}
+
+.icon--heart-line-bold {
+  mask-image: url('/assets/icons/heart-line-bold.svg');
+  background-color: var(--color-clear);
+}
+
+.icon--search {
+  mask-image: url('/assets/icons/search.svg');
+  background-color: var(--color-dark);
+}

@@ -1,0 +1,16 @@
+.character-list-view {
+  padding: 40px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.character-list-title__favorites {
+  margin: 0;
+}
+
+.character-list-view__list {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(auto-fill, minmax(var(--character-card-width), 1fr));
+}

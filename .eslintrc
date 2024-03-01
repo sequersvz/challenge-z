@@ -6,7 +6,9 @@
     },
     "extends": [
         "standard-with-typescript",
-        "plugin:react/recommended"
+        "plugin:react/recommended",
+        "plugin:@next/next/recommended",
+        "prettier"
     ],
     "ignorePatterns": ["next.config.mjs", "next-env.d.ts"],
     "parserOptions": {
@@ -17,6 +19,12 @@
         "react"
     ],
     "rules": {
-      "react/react-in-jsx-scope": "off"
-    }
+      "react/react-in-jsx-scope": "off",
+      "typescript-eslint/explicit-function-return-type": "off"
+    },
+    "settings": {
+        "react": {
+          "version": "detect"
+        }
+      }
   }

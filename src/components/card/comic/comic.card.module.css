@@ -1,0 +1,30 @@
+.comic {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 168px;
+  margin: 0;
+}
+
+.comic__thumbnail img {
+  height: 250px;
+  width: 168px;
+  object-fit: cover;
+  object-position: left;
+}
+
+.comic__title {
+  font-size: 15px;
+  line-height: 18px;
+  font-weight: 600;
+
+  width: 160px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.comic__date {
+  font-size: 11px;
+  line-height: 13px;
+}
