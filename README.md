@@ -4,7 +4,7 @@
 
 Marvel APP for Zara
 
-# Monolitch Architecture APP #
+## Monolithic Architecture APP
 
 # Getting started
 
